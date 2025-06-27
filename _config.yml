@@ -1,5 +1,5 @@
 title: Sumit Sinha's Blog
 description: A blog about physics, machine learning, and more.
-remote_theme: jekyll/minima
+theme: minima
 permalink: /:year/:month/:day/:title/
 baseurl: ""
