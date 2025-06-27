@@ -86,4 +86,6 @@ For our implementation, we used the following parameters:
 
 After training, the PINN provides an approximation of the solution $u(t, x)$ over the entire domain. We can then visualize this solution. The generated `burgers_solution.png` shows the predicted velocity field, demonstrating how the shock wave develops and propagates over time.
 
+![Predicted Burgers' Equation Solution](/assets/images/burgers_solution.png)
+
 This approach highlights the power of PINNs in solving PDEs by leveraging automatic differentiation and neural network capabilities to embed physical laws directly into the learning process.
