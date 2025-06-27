@@ -43,10 +43,16 @@ a:hover {
 }
 
 // Navigation links
+.site-nav .trigger {
+  display: flex;
+  gap: 20px; /* Spacing between navigation items */
+  align-items: center;
+}
+
 .site-nav .page-link {
   color: #ecf0f1; /* Light text for nav links */
-  margin-left: 20px; /* Spacing between links */
   font-weight: bold;
+  white-space: nowrap; /* Prevent links from wrapping */
   &:hover {
     color: #ffffff; /* Brighter on hover */
   }
