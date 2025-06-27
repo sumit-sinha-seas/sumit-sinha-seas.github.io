@@ -42,6 +42,16 @@ a:hover {
   font-weight: bold;
 }
 
+// Navigation links
+.site-nav .page-link {
+  color: #ecf0f1; /* Light text for nav links */
+  margin-left: 20px; /* Spacing between links */
+  font-weight: bold;
+  &:hover {
+    color: #ffffff; /* Brighter on hover */
+  }
+}
+
 // Main content area
 .post-content,
 .home {
