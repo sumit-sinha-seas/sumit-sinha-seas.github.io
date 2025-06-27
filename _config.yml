@@ -3,5 +3,4 @@ description: A blog about physics, machine learning, and more.
 theme: minima
 permalink: /:year/:month/:day/:title/
 baseurl: ""
-dummy_setting_for_rebuild: true
 # Dummy comment to force rebuild
