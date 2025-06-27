@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Solving the 1D Burgers' Equation with Physics-Informed Neural Networks (PINNs) in JAX"
+title: "Solving the 1D Burgers' Equation with Physics-Informed Neural Networks (PINNs) in JAX (v2)"
 date: 2025-06-26 10:00:00 -0700
 categories: [Physics, Machine Learning, JAX, PINNs]
 ---
