@@ -1,56 +1,96 @@
-/* Add your custom styles here */
+/* Custom styles for a serious, academic, computational aesthetic */
 
+// Base styles
 body {
-  font-family: 'Georgia', serif;
-  line-height: 1.8;
-  color: #333;
-  background-color: #f8f8f8;
+  font-family: 'Georgia', serif; /* Classic serif for readability */
+  line-height: 1.7;
+  color: #333333; /* Dark gray for text */
+  background-color: #f8f8f8; /* Off-white background */
 }
 
+// Headings
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica Neue', sans-serif;
-  color: #2c3e50;
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Clean sans-serif for headings */
+  color: #2c3e50; /* Deep blue-gray for headings */
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 
+// Links
 a {
-  color: #3498db;
+  color: #3498db; /* Professional blue for links */
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 a:hover {
+  color: #217dbb; /* Slightly darker blue on hover */
   text-decoration: underline;
 }
 
+// Header
 .site-header {
-  background-color: #2c3e50;
-  color: #ecf0f1;
-  padding: 20px 0;
+  background-color: #2c3e50; /* Deep blue-gray header */
+  color: #ecf0f1; /* Light text for header */
+  padding: 25px 0;
+  border-bottom: 1px solid #34495e;
 }
 
 .site-title {
   color: #ecf0f1;
+  font-size: 2.2em;
+  font-weight: bold;
 }
 
-.post-content {
+// Main content area
+.post-content,
+.home {
   background-color: #ffffff;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
+// Post meta (date, categories)
 .post-meta {
-  color: #7f8c8d;
+  color: #7f8c8d; /* Muted gray for meta info */
   font-size: 0.9em;
+  margin-bottom: 20px;
 }
 
+// Code blocks and inline code
 code,
 pre {
-  background-color: #ecf0f1;
-  border-radius: 4px;
-  padding: 2px 4px;
+  font-family: 'Fira Code', 'Consolas', 'Monaco', monospace; /* Monospace font for code */
+  background-color: #eeeeee; /* Light gray background for code */
+  border-radius: 3px;
+  padding: 2px 5px;
+  font-size: 0.95em;
 }
 
 pre {
-  padding: 10px;
+  padding: 15px;
   overflow-x: auto;
+  border: 1px solid #dddddd;
+  line-height: 1.4;
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid #3498db; /* Blue border for quotes */
+  padding-left: 15px;
+  color: #555555;
+  font-style: italic;
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #dddddd;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
