@@ -123,3 +123,5 @@ After training, to numerically verify Galilean invariance, you would:
 5.  Check if $|S_{NN}(x') - S_{expected}|$ is close to zero (within a small tolerance).
 
 This approach allows us to embed fundamental physical symmetries directly into the learning process of neural networks, leading to models that are not only data-driven but also physically consistent. This is a crucial step towards building more robust and interpretable AI models for scientific discovery.
+
+<!-- Forced update to trigger Jekyll rebuild -->
