@@ -60,13 +60,43 @@ a:hover {
 
 // Main content area
 .post-content,
-.home {
+.home .welcome-section .post-content,
+.home .recent-posts-section {
   background-color: #ffffff;
   padding: 40px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.home .welcome-section {
+  margin-bottom: 40px; /* Space between welcome and posts */
+}
+
+.home .post-list-heading {
+  margin-top: 0; /* Adjust heading margin */
+  margin-bottom: 20px;
+}
+
+.home .post-list li {
+  margin-bottom: 15px; /* Space between list items */
+}
+
+.home .post-list .post-meta {
+  display: block; /* Ensure date is on its own line */
+  margin-bottom: 5px;
+}
+
+.home .post-list h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.home .rss-subscribe {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9em;
 }
 
 // Post meta (date, categories)

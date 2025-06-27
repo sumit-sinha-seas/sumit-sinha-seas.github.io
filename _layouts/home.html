@@ -4,26 +4,30 @@ layout: default
 
 <div class="home">
 
-  <div class="post-content">
-    <p>Welcome to my personal space where I share insights and explorations in the realms of mathematics, physics, and computational science. This blog serves as a platform for in-depth discussions, numerical experiments, and theoretical considerations.</p>
-    <p>My work often involves leveraging advanced computational techniques to understand complex systems, with a particular focus on interdisciplinary applications. Here, you will find detailed analyses, code implementations, and reflections on various scientific and engineering challenges.</p>
-  </div>
+  <section class="welcome-section">
+    <div class="post-content">
+      <p>Welcome to my personal space where I share insights and explorations in the realms of mathematics, physics, and computational science. This blog serves as a platform for in-depth discussions, numerical experiments, and theoretical considerations.</p>
+      <p>My work often involves leveraging advanced computational techniques to understand complex systems, with a particular focus on interdisciplinary applications. Here, you will find detailed analyses, code implementations, and reflections on various scientific and engineering challenges.</p>
+    </div>
+  </section>
 
-  <h2 class="post-list-heading">Recent Posts</h2>
+  <section class="recent-posts-section">
+    <h2 class="post-list-heading">Recent Posts</h2>
 
-  <ul class="post-list">
-    {% for post in site.posts limit:1 %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul class="post-list">
+      {% for post in site.posts limit:1 %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+        </li>
+      {% endfor %}
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  </section>
 
 </div>
